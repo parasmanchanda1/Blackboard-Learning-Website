@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Source+Sans+Pro:wght@600&display=swap');
+
+body
+{
+    font-family: 'PT Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+*
+{
+    margin:0;
+    padding:0;
+}
+
+.container
+{
+    display:flex;
+    flex-direction: row;
+}
+
+
+.container1
+{
+  width:200px;
+  height:100vh;
+  background-color:rgb(26, 21, 21);
+  display:flex;
+  flex-direction: column;
+  color:white;
+  position:sticky;
+  top:0px;
+}
+
+.container1 img
+{
+    height:55px;
+    width:165px;
+    padding:10px;
+}
+
+.container1 ul li
+{
+    list-style-type: none;
+    display:flex;
+ 
+}
+
+.container1 ul li a
+{
+    text-decoration:none;
+    color:white;
+    font-size:15px;
+    font-weight:bold;
+    margin:0px 15px;
+    padding: 20px 1px;
+    
+}
+.demo
+{
+    height:30px !important;
+    width:30px !important;
+    margin:0px !important;
+}
+
+.container1 p
+{
+    margin:50px 10px 10px;
+}
+
+.container1 p a
+{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:4px 0;
+}
+.container1 ul li:hover
+{
+    background-color:black;
+}
+.container1 ul li a:hover,.container p a:hover
+{
+    text-decoration: underline;
+}
+
+.container2
+{
+    width:88vw;
+  
+
+}
+
+.box1
+{
+    background-color:white;
+    height:12vh; 
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:0 25px;
+    font-size: 24px;
+}
+
+.box1 h3 a,p a
+{
+    text-decoration:none;
+    color:rgb(32, 28, 28);
+    font-size:18px;
+
+}
+
+.box1 h3 a:hover
+{
+    text-decoration:underline;
+}
+
+.box1 a img
+{
+    width: 28px;
+    height: 34px;
+    padding-right:15px;
+}
+
+.box2
+{
+    display:flex;
+    justify-content:flex-start;
+}
+
+.box2 p
+{
+
+        padding: 1px 195px;
+}
+
+#demo 
+{
+    padding-left:170px;
+    padding-right:10px;
+}
+
+.box3
+{
+    background-color:rgb(202, 202, 202);
+    padding-bottom:20px;
+}
+
+#texts
+{
+    border-inline:5px rgb(140, 140, 236);
+    padding: 12px 18px;
+    margin: 26px;
+    widtH: 264px;
+}
+
+select
+ {
+    width: 104px;
+    padding: 10px 5px;
+}
+
+#right
+{
+    margin-left: 613px;
+    width: 50px;
+}
+
+.box3 p
+{
+    margin: 22px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.box4
+{
+    margin:20px;
+    height:15vh;
+    background-color: white;
+    display:flex;
+}
+
+.box5
+{
+    width:11px;
+    height:15vh;
+   
+}
+
+.blue
+{
+    background-color:rgb(94, 196, 221);
+}
+
+.green
+{
+    background-color:rgb(131, 243, 131);
+}
+
+.purple
+{
+    background-color:rgb(145, 64, 145);
+}
+
+.red
+{
+    background-color: rgb(235, 27, 27);
+}
+
+.lightpurple
+{
+    background-color: rgb(211, 114, 211);
+}
+
+.darkblue
+{
+    background-color:rgb(86, 86, 235);
+}
+
+.skyblue
+{
+    background-color: rgb(158, 236, 236);
+}
+
+.yellow
+{
+    background-color:rgb(226, 185, 73);
+}
+
+.pink
+{
+    background-color: rgb(206, 70, 154);
+}
+
+.box4 a
+{
+ text-decoration:none;
+ color:black;
+}
+
+
+.box5_1 h3
+{
+    text-transform: uppercase;
+    padding: 22px 40px 5px 32px;
+    font-weight:inherit;
+}
+
+.box5_1 h4
+{
+    text-transform:capitalize;
+    padding: 0px 40px 5px 32px;
+    font-weight:bolder;
+}
+
+.box5_1 a h4:hover
+{
+    text-decoration: underline;
+}
+
+.box5_1 p
+{
+    font-size:12px;
+    padding: 0px 40px 5px 32px;
+    margin:0px !important;
+}
+
+
+#demo2
+{
+    color:rgb(17, 107, 119);
+    text-decoration: underline;
+    font-size:12px;
+}
+
+.box6{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding:0 30px;
+}
+.box6 button
+{
+    margin: 0 10px;
+}
+
+
+#right1
+{
+    width:50px;
+}
+
+.box6 img
+{
+    margin:0px 20px;
+    width:20px;
+    height:20px;
+}
+.box6 a
+{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
+
+.box6 a img
+{
+    width:38px;
+    height:32px;
+}
+
+.hidden img
+{
+    padding:10px 0 0px;
+    width: 26px;
+    height:20px;
+}
+.hidden
+{
+    height: 78px;
+    width: 126px;
+    display:flex;
+    flex-direction: column;
+    position :fixed;
+    justify-content: center;
+    bottom:72px;
+    right:10px;
+    background-color:white;
+    padding: 0 5px;
+    border:2px solid rgb(230, 193, 193);
+    opacity:0;
+}
+
+.hidden a 
+{
+    color:black;
+    text-decoration: none;
+}
+
+.hidden a p
+{
+    font-size:12px;
+    display:inline-block;
+  
+}
